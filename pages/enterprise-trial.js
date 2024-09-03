@@ -1,0 +1,1 @@
+"use strict";window.onload=($(".toggle-link").click(function(){$(this).next(".toggle-block").slideToggle("fast",function(){$(this).prev(".toggle-link").children(".icon-menu").toggleClass("open")})}),void $(function(){"#order"==window.location.hash&&$("#features-table").show()}));
